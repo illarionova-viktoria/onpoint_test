@@ -62,7 +62,7 @@
 .chain-right_image-block_back{
     width: 60px;
     height: 60px; 
-    background: url(assets/images/slide3/parts/Ellipse.png);
+    background: url(../images/slide3/parts/Ellipse.png);
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 0.1;

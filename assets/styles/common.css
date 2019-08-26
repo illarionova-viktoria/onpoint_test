@@ -127,6 +127,7 @@ body {
   position: fixed;
   bottom: 22px;
   left: 464px;
+  cursor: pointer;
 }
 
 .page-footer .page-footer__text {
@@ -162,4 +163,50 @@ body {
   position: absolute;
   top: 41px;
   left: 300px; 
+}
+
+.page-footer__visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+
+.page-footer__hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.3s, opacity 0.3s linear;
+}
+
+.slider{
+  width: 50px;
+  height: 100px; 
+  position: fixed;
+  right: 39px;
+  top: 0;
+}
+
+.slider .slider-element{
+  background: url(../images/slider-point.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  right: -10px;
+  top: 356px;
+  cursor: pointer;
+}
+
+.slider .slider-element-two{
+  right: -10px;
+  top: 376px;
+}
+
+.slider .slider-element-three{
+  right: -10px;
+  top: 397px;
+}
+
+.slider .slider-element__active{
+  background: url(../images/slider-point-orange.png) no-repeat;
+  background-size: contain;
 }
