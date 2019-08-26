@@ -142,3 +142,24 @@ body {
   transform: translateX(35px) translateY(10px);
   ;
 }
+
+.page-footer .page-footer__ellipse{
+  height:150px; 
+  width: 1000px;
+  background: url(../images/footer2.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -28px;
+  left: -460px; 
+}
+
+.page-footer .page-footer__ellipse::before{
+  content: '';
+  height:150px; 
+  width: 450px;
+  background: url(../images/EllipseFooter.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 41px;
+  left: 300px; 
+}
