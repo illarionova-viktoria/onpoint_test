@@ -1,5 +1,5 @@
 let moveToNextScreenGlobalEvent = null;
-
+let sliderScrollTo = null;
 (function () {
     initializeTouchEvents();
 
@@ -29,6 +29,12 @@ let moveToNextScreenGlobalEvent = null;
         storedStart.pageY = event.touches[0].pageY;
     }
 
+    sliderScrollTo = function(index){
+        currentShowingScreen = index;
+
+        scrollToElement(currentShowingScreen)
+    }
+    
     function moveToNextScreen() {
         if (currentShowingScreen < 2) {
             currentShowingScreen++;
