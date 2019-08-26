@@ -1,0 +1,123 @@
+p{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.promo p{
+    width: 800px;
+    font-family: GothamPro;
+    font-size: 50px;
+    color: #0d319c;
+    line-height: 55px; 
+    transform: translateX(70px) translateY(135px);
+}
+
+.pointOnTop{
+    position: relative;
+}
+
+.block {
+    position: absolute;
+    width: 300px;
+    height: 55px;  
+    margin: 0;
+}
+
+.gipo{
+    transform: translateX(225px) translateY(290px);
+}
+
+.circle-group{
+    position: relative;
+}
+
+.circle1{
+    position: absolute;
+    left: 49px;
+    top: 27px;
+    width: 28px;
+    height: 28px; 
+    background-image: url("../images/slide1/EllipseGipo1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+
+.circle2{
+    position: absolute;
+    top: 30px;
+    left: 52px;
+    width: 22px;
+    height: 22px; 
+    background-image: url("../images/slide1/EllipseGipo2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 3;
+}
+
+.circle3{
+    position: absolute;
+    top: 35px;
+    left: 57px;
+    width: 12px;
+    height: 12px; 
+    background-image: url("../images/slide1/EllipseGipo3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 5;
+}
+
+.text{
+    position: absolute;
+    top: -10px;
+    font-size: 20px;
+    color: #0d319c;  
+}
+
+.bads{
+    transform: translateX(425px) translateY(395px);
+}
+
+.bads .text{
+    left: -55px;
+}
+
+.bads .circle-bads{
+    transform:translate(-25px, 10px) scale(0.7);
+}
+
+.point{
+    width: 270px;
+    transform:translateX(595px) translateY(95px);
+}
+
+.point .circle-point{
+    transform: scale(2);
+}
+
+.point .text{
+    top: 70px;
+    left: 35px;
+}
+
+.risks{
+    width: 200px;
+    transform: translateX(757px) translateY(385px);
+}
+
+.risks .circle-risks{
+    transform: scale(0.7);
+}
+
+.risks .text {
+    left: 20px;
+}

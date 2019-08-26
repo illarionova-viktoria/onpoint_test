@@ -1,0 +1,61 @@
+.ice{
+    position: relative;
+}
+
+.ice1 {
+    position: absolute;
+    background: url(../images/slide2/ice1slide2.png ) no-repeat;
+    height: 210px;
+    width: 150px;
+    background-size: contain;
+    transform: translate(867px, -65px);
+}
+
+.ice2 {
+    position: absolute;
+    background: url(../images/slide2/ice2slide2clear.png) no-repeat;
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    transform: translate(90px, 60px);
+}
+
+.ice3{
+    position: absolute;
+    background: url(../images/slide2/ice2slide2clear.png) no-repeat;
+    height: 110px;
+    width:200px;
+    background-size: contain;
+    transform: translate(223px, 364px) rotate(38deg);
+}
+
+.ice4{
+    position: absolute;
+    background: url(../images/slide2/ice4.png) no-repeat;
+    height: 80px;
+    width: 70px;
+    background-size: contain;
+    transform: translate(708px, 475px); 
+}
+
+.ice--text {
+    text-align: center;
+    position: absolute;
+    transform: translate(142.5%, 150%) scale(0.9);
+    color: white;
+}
+
+.promo2 {
+    font-family: GothamProLight;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    transform: translate(280px, 260px);
+    line-height: 56px;
+}
+
+.container-two {
+    position: absolute;
+    transform: translateY(-115px);
+    height: 100%;
+}

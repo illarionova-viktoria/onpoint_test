@@ -1,0 +1,146 @@
+@font-face{
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro.ttf);
+}
+
+@font-face{
+  font-family: GothamProLight;
+  src: url(../fonts/ofont.ru_Gotham\ Pro.ttf);
+}
+
+@font-face{
+  font-family: Lato;
+  src: url(../fonts/9622.ttf);
+}
+
+@font-face{
+  font-family: MyriadPro;
+  src: url(../fonts/8143.otf) format("oft");
+}
+
+@font-face{
+  font-family: LatoSemibold;
+  src: url(../fonts/Lato-Semibold.ttf);
+}
+
+@font-face{
+  font-family: LatoMedium;
+  src: url(../fonts/Lato-Medium.ttf);
+}
+
+/* Parallax base styles
+  --------------------------------------------- */
+
+  .parallax {
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+  }
+
+  .parallax__group {
+    position: relative;
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .parallax__layer--fore {
+    -webkit-transform: translateZ(90px) scale(.7);
+    transform: translateZ(90px) scale(.7);
+    z-index: 1;
+  }
+
+  .parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 3;
+  }
+
+  .parallax__layer--back {
+    transform: translateZ(50px) scale(0.85) translate(0px, 114px);
+    z-index: 4;
+  }
+
+  .parallax__layer--deep {
+    -webkit-transform: translateZ(-600px) scale(3);
+    transform: translateZ(-600px) scale(3);
+    z-index: 2;
+  }
+
+body, html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+  * {
+    margin:0;
+    padding:0;
+  }
+
+
+.slide-1  {
+    z-index: 5;
+}
+.slide-1 .parallax__layer--base {
+    background-image: url(../images/slide1/slide1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  .slide-2 {
+    z-index: 3;
+    background-image: url(../images/slide2/slide2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.slide-3 {
+    z-index: 3; 
+}
+
+.slide-3  .parallax__layer--base {
+    background-image: url(../images/slide3/slide3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.page-footer {
+  width: 300px;
+  height: 50px;
+  position: fixed;
+  bottom: 22px;
+  left: 464px;
+}
+
+.page-footer .page-footer__text {
+  color: white;
+  font-family: GothamPro;
+}
+
+.page-footer .page-footer__arrow {
+  width: 45px;
+  height: 45px;
+  background: url(../arrowDown.png) no-repeat;
+  background-size: contain;
+  transform: translateX(35px) translateY(10px);
+  ;
+}
