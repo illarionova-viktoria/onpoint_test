@@ -28,11 +28,9 @@
   src: url(../fonts/Lato-Medium.ttf);
 }
 
-/* Parallax base styles
-  --------------------------------------------- */
 
   .parallax {
-    height: 500px; /* fallback for older browsers */
+    height: 500px; 
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
@@ -42,7 +40,7 @@
 
   .parallax__group {
     position: relative;
-    height: 500px; /* fallback for older browsers */
+    height: 500px; 
     height: 100vh;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;

@@ -36,6 +36,21 @@ p{
     transform: translateX(225px) translateY(290px);
 }
 
+@keyframes puls-circle{
+    0%{transform: scale(0.3);}
+    25%{transform: scale(0.5);}
+    65%{transform: scale(0.8);}
+    100%{transform: scale(1);}
+}
+
+@keyframes puls-middle{
+    0%{transform: scale(0.2);}
+    40%{transform: scale(0.4);}
+    80%{transform: scale(0.6);}
+    100%{transform: scale(0.8);}
+}
+
+
 .circle-group{
     position: relative;
 }
@@ -52,16 +67,30 @@ p{
     z-index: -1;
 }
 
-.circle2{
+.circle1::before{
+    content: '';
     position: absolute;
-    top: 30px;
-    left: 52px;
-    width: 22px;
-    height: 22px; 
-    background-image: url("../images/slide1/EllipseGipo2.png");
+    left: 0;
+    top: 0;
+    width: 28px;
+    height: 28px; 
+    background-image: url("../images/slide1/EllipseGipo1.png");
     background-repeat: no-repeat;
     background-size: contain;
-    z-index: 3;
+    z-index: -1;
+}
+
+.circle1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28px;
+    height: 28px; 
+    background-image: url("../images/slide1/EllipseGipo1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
 }
 
 .circle3{
@@ -70,7 +99,7 @@ p{
     left: 57px;
     width: 12px;
     height: 12px; 
-    background-image: url("../images/slide1/EllipseGipo3.png");
+    background-image: url("../images/slide1/EllipseGipoNoGr\ 3.png");
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 5;
@@ -102,6 +131,28 @@ p{
 
 .point .circle-point{
     transform: scale(2);
+}
+
+.point .circle-point .circle3{
+    animation-name: puls-middle;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.point .circle-point .circle1::before{
+    animation-name: puls-circle;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    
+    animation-iteration-count: infinite;
+}
+
+.point .circle-point .circle1::after{
+    animation-name: puls-circle;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    
+    animation-iteration-count: infinite;
 }
 
 .point .text{
