@@ -38,15 +38,12 @@ p{
 
 @keyframes puls-circle{
     0%{transform: scale(0.3);}
-    25%{transform: scale(0.5);}
-    65%{transform: scale(0.8);}
+
     100%{transform: scale(1);}
 }
 
 @keyframes puls-middle{
     0%{transform: scale(0.2);}
-    40%{transform: scale(0.4);}
-    80%{transform: scale(0.6);}
     100%{transform: scale(0.8);}
 }
 
@@ -55,7 +52,8 @@ p{
     position: relative;
 }
 
-.circle1{
+.circle1,
+.circle2{
     position: absolute;
     left: 49px;
     top: 27px;
@@ -78,6 +76,11 @@ p{
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
+
+    animation-name: puls-circle;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .circle1::after{
@@ -91,6 +94,18 @@ p{
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
+
+    animation-name: puls-circle;
+    animation-delay: 1.5s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.circle2{
+    animation-name: puls-circle;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .circle3{
@@ -103,6 +118,11 @@ p{
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 5;
+
+    animation-name: puls-middle;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .text{
@@ -131,28 +151,6 @@ p{
 
 .point .circle-point{
     transform: scale(2);
-}
-
-.point .circle-point .circle3{
-    animation-name: puls-middle;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
-
-.point .circle-point .circle1::before{
-    animation-name: puls-circle;
-    animation-delay: 1s;
-    animation-duration: 1s;
-    
-    animation-iteration-count: infinite;
-}
-
-.point .circle-point .circle1::after{
-    animation-name: puls-circle;
-    animation-delay: 1s;
-    animation-duration: 2s;
-    
-    animation-iteration-count: infinite;
 }
 
 .point .text{
