@@ -1,0 +1,447 @@
+@font-face{
+    font-family: Lato;
+    src: url(fonts/9622.ttf);
+}
+
+.slide-3 .container {
+    background: url(assets/slide3/slide3.png) no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0; 
+}
+
+.minitext{
+    position: absolute;
+    font-size: 15px;
+    font-family: Lato;
+    color: white; 
+}
+
+
+.head{
+    width: 400px;
+}
+
+.head .head-text{
+
+    color: white;
+    font-family: GothamPro;
+    font-size: 30px;    
+    transform: translate( 83px, 115px);
+}
+
+.chains{
+    position: relative;
+}
+
+.chain{
+    position: absolute;
+}
+
+.chain-container{
+    position: relative;
+}
+
+.chain-left_text-block{
+    position: absolute;
+    text-align: right;
+    
+}
+
+.chain-right_text-block{
+    text-align: left;
+}
+
+.chain_text-block_number,
+.chain-left_text-block_number,
+.chain-right_text-block_number{
+    font-family: LatoSemibold;
+    color: white;
+    font-size: 36px;
+}
+
+.chain_text-block_description,
+.chain-left_text-block_description,
+.chain-right_text-block_description{
+    font-family: Lato;
+    font-size: 20px; 
+    color: white;
+
+}
+
+.chain_image-block_back,
+.chain-left_image-block_back,
+.chain-right_image-block_back{
+    width: 60px;
+    height: 60px; 
+    background: url(assets/slide3/parts/Ellipse.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+}
+
+.one{
+    transform: translate(  500px, 100px);
+}
+
+.one .chain_text-block_number{
+    transform: translate( -57px, 11px);
+}
+
+.one .chain_text-block_description{
+    font-size: 25px;
+    transform: translate( -23px, -25px);
+}
+
+.one .chain_image-block_back{
+    width: 80px;
+    height: 80px;
+    transform: translate( -15px, -20px);
+}
+
+.one .chain_image-block_icon{
+    color: white;
+    font-size: 68px;
+    transform: translate(  5px, -105px);
+}
+
+.two{
+    width: 250px;
+    transform: translate( 350px, 309px);
+}
+
+.two .chain-left_text-block_description{
+    transform: translate( 3px, -10px);
+}
+
+.three{
+    transform: translate( 542px, 309px);
+}
+
+.three .chain-right_text-block_description{
+    transform: translate( -6px,-6px);
+}
+
+.glukagon{
+    transform: translate(542px, 400px);
+}
+
+.four{
+    transform: translate( 792px, 520px);
+}
+
+.four .chain-right_image-block_back{
+    transform: translate( -73px, -60px);
+}
+
+.four .chain-right_image-block_image{
+    width: 45px;
+    height: 45px;
+    transform: translate( -65px, -110px);
+}
+
+.five{
+    transform: translate( 792px, 436px);
+}
+
+.five .chain-right_image-block_back{
+    transform: translate( -73px, -60px);
+}
+
+.five .chain-right_image-block_image{
+    width: 55px;
+    height: 35px;
+    transform: translate( -69px, -108px);
+}
+
+.six{
+    transform: translate( 792px, 352px);
+}
+
+.six .chain-right_image-block_back{
+    transform: translate( -73px, -60px);
+}
+
+.six .chain-right_image-block_image{
+    width: 50px;
+    height: 47px;
+    transform: translate( -67px, -106px);
+}
+
+.insulinores{
+    transform: translate( 743px, 320px);
+}
+
+.seven{
+    transform: translate( 790px, 200px);
+}
+
+.seven .chain-right_text-block_description{
+    transform: translate( 1px, -9px);
+}
+
+.seven .chain-right_image-block_back{
+    transform: translate( -75px, -63px);
+}
+
+.seven .chain-right_image-block_image{
+    width: 46px;
+    height: 43px;
+    transform: translate( -67px, -115px);
+}
+
+.eight{
+    transform: translate( 280px, 205px);
+}
+
+.eight .chain-left_text-block_number {
+    transform: translate( -140px, -15px);
+}
+
+.eight .chain-left_text-block_description{
+    transform: translate( -139px, -21px);
+}
+
+.eight .chain-left_image-block_back{
+    transform: translate( -8px, 1px);
+}
+
+.eight .chain-left_image-block_image{
+    width: 43px;
+    height: 62px;
+    transform: translate( -2px, -60px);
+}
+
+.nine{
+    transform: translate( 280px, 255px);
+}
+
+.nine .chain-left_text-block_number {
+    transform: translate( -268px, 28px);
+}
+
+.nine .chain-left_text-block_description{
+    width: 250px;
+    transform: translate( -265px, 20px);
+}
+
+.nine .chain-left_image-block_back{
+    transform: translate( -8px, 40px);
+}
+
+.nine .chain-left_image-block_image{
+    width: 50px;
+    height: 46px;
+    transform: translate( -4px, -12px);
+}
+
+
+.amilin {
+    transform: translate( 268px, 383px);
+}
+
+.ten{
+    transform: translate( 280px, 400px);
+}
+
+.ten .chain-left_text-block_number {
+    transform: translate( -269px, 27px);
+}
+
+.ten .chain-left_text-block_description{
+    width: 250px;
+    transform: translate( -270px, 20px);
+}
+
+.ten .chain-left_image-block_back{
+    transform: translate( -8px, 40px);
+}
+
+.ten .chain-left_image-block_image{
+    width: 40px;
+    height: 40px;
+    transform: translate( 0px, -12px);
+}
+
+.gipogl{
+    font-family: LatoMedium;
+    font-size: 25px;
+    color: white;
+
+    position: absolute;
+    transform: translate( 430px, 458px);
+}
+
+.eleven{
+    transform: translate( 505px, 488px);
+}
+
+.eleven .chain-left_text-block_number {
+    transform: translate( -266px, 40px);
+}
+
+.eleven .chain-left_text-block_description{
+    width: 250px;
+    transform: translate( -267px, 32px);
+}
+
+.eleven .chain-left_image-block_back{
+    transform: translate( -8px, 40px);
+}
+
+.eleven .chain-left_image-block_image{
+    width: 45px;
+    height: 45px;
+    transform: translate( -6px, -16px);
+}
+
+.ices{
+    position: relative;
+}
+
+.ices .ices_ice{
+    position: absolute;
+}
+
+.ices .ice-one_image{  
+    transform: scale(0.5) translate(-30px, 120px);
+}
+
+.ices .ice-two_image{
+    transform: scale(0.5) translate(120px, 940px);
+}
+
+.ices .ice-three_image{
+    transform: scale(0.5) translate(1780px, 265px);;
+}
+
+.ices .no-ice{
+    border-top: 1px solid #cf1437;
+    
+    background-image: linear-gradient(to bottom, white 10%, transparent 90%, transparent);
+    opacity: 0.1;
+    position: absolute;
+    width: 257px;
+    height: 220px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    transform: translate( 703px, 300px);
+}
+
+.arrows_arrow{
+    transform: scale(0.5);
+}
+
+.arrows{
+    position: relative;
+}
+
+.arrows .arrows_from-one-to-eight{
+    position: absolute;
+    transform: translate( 288px, 187px) ;
+}
+
+.arrows .arrows_from-eight-to-one{
+    position: absolute;
+    transform: translate( 292px, 193px) scale(-1);
+}
+
+.arrows .arrows_from-one-to-seven{
+    position: absolute;
+    transform: translate( 534px, 186px) scale(-1, 1);
+}
+
+.arrows .arrows_from-seven-to-one{
+    position: absolute;
+    transform: translate( 531px, 193px) scaleY(-1);
+}
+
+.arrows .arrows_from-one-to-nine{
+    position: absolute;
+    transform: translate( 273px, 185px);
+}
+
+.arrows .arrows_from-nine-to-one{
+    position: absolute;
+    transform: translate( 279px, 191px) scale(-1);
+}
+
+.arrows .arrows_from-one-to-group{
+    position: absolute;
+    transform: translate( 501px, 186px) scale(-1, 1);
+}
+
+.arrows .arrows_from-group-to-one{
+    position: absolute;
+    transform: translate( 496px, 192px) scaleY(-1);
+}
+  
+.arrows .arrows_from-one-to-gipo{
+    position: absolute;
+    transform: translate( 520px, 130px);
+}  
+
+.arrows .arrows_from-one-to-two{
+    position: absolute;
+    transform: translate( 497px, 203px);
+}
+
+.arrows .arrows_from-one-to-three{
+    position: absolute;
+    transform: translate( 543px, 203px);
+}
+
+.arrows .arrows_from-one-to-amilin{
+    position: absolute;
+    transform: translate( 212px, 164px);
+}
+
+.arrows .arrows_from-amilin-to-ten{
+    position: absolute;
+    transform: translate( 298px, 398px);
+}
+
+.arrows .arrows_from-amilin-to-gipo{
+    position: absolute;
+    transform: translate( 288px, 394px);
+}
+ 
+.arrows .arrows_from-ten-to-gipo{
+    position: absolute;
+    transform: translate( 312px, 464px);
+}
+
+.arrows .arrows_from-two-to-gipo{
+    position: absolute;
+    transform: translate( 496px, 366px);
+}
+
+.arrows_from-three-to-glukagon{
+    position: absolute;
+    transform: translate( 543px, 367px);
+}
+
+.arrows_from-glukagon-to-gipo{
+    position: absolute;
+    transform: translate( 543px, 408px);
+}
+
+.arrows_from-gipo-to-eleven{
+    position: absolute;
+    transform: translate( 531px, 482px);
+}
+
+.arrows_from-eleven-to-gipo{
+    position: absolute;
+    transform: translate( 508px, 482px);
+}
+
+.arrows_from-seven-to-group{
+    position: absolute;
+    transform: translate( 789px, 253px);
+}
+
+.arrows_from_group-to-seven{
+    position: absolute;
+    transform: translate(800px, 251px) scale(-1);
+}
